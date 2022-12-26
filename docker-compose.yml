@@ -34,7 +34,7 @@ services:
     container_name: cadvisor
     user: root
     ports:
-      - "8585:8080"
+      - "8080:8080"
     volumes:
       - "/:/rootfs:ro"
       - "/var/run:/var/run:rw"
